@@ -19,7 +19,7 @@
 		{
 			"name": "padding",
 			"type": "dimen",
-			"value": "10dp"
+			"value": "30dp"
 		}
 	],
 	"views": [
