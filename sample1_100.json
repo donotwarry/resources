@@ -29,7 +29,7 @@
 				{
 					"name": "layout_width",
 					"type": "dimen",
-					"value": "100%"
+					"value": "90%"
 				},
 				{
 					"name": "layout_height",
