@@ -1,0 +1,149 @@
+{
+	"head": {
+		"version": "0.1.0",
+		"width": 750,
+		"height": 1334,
+		"bgColor":"0x000000",
+		"landscape" : 0
+	},
+	"body": {
+		"view": "scrollView",
+		"subviews": [
+			{
+				"view": "page",
+				"x": 0,
+				"y": 0,
+				"width": 750,
+				"height": 1334,
+				"subviews": [
+					{
+						"view": "video",
+						"x": 0,
+						"y": 0,
+						"width": 750,
+						"height": 422,
+						"custom": {
+							"videoUrl": "http://wxsnsdy.video.qq.com/105/20210/snsdyvideodownload?filekey=30270201010420301e0201690402534804107cc63287148fa491fbf676c7ef5768520203191d970400&hy=SH&storeid=32303137303131373037353131303030303961616365313336666664393330343561333230613030303030303639&bizid=1023",
+							"videoType":"short",
+							"preload":"true",
+							"cover": ""
+						},
+						"subviews": []
+					},
+					{
+						"view": "image",
+						"x": 0,
+						"y": 422,
+						"width": 750,
+						"height": 912,
+						"subviews": [],
+						"custom": {
+							"imgUrl": "http://vweixinthumb.tc.qq.com/109/20204/snsvideodownload?filekey=30270201010420301e02016d040253480410efffdcf15893248926716cd72b710df002030134320400&hy=SH&storeid=32303137303131393031333335303030303639653534313336666664393330333561333230613030303030303664&bizid=1023",
+							"preload":"true"
+						}
+					}
+				]
+			},
+			{
+				"view": "page",
+				"x": 0,
+				"y": 1334,
+				"width": 750,
+				"height": 1334,
+				"subviews": [
+					{
+						"view": "gallery",
+						"x": 0,
+						"y": 131,
+						"width": 750,
+						"height": 750,
+						"custom": {
+							"imgUrlList":[
+								"http://vweixinthumb.tc.qq.com/109/20204/snsvideodownload?filekey=30270201010420301e02016d0402534804103317a02318dbd315bba75b44c68ae74a0203048ce60400&hy=SH&storeid=32303137303131393031333535333030306361633366313336666664393330343561333230613030303030303664&bizid=1023",
+								"http://vweixinthumb.tc.qq.com/109/20204/snsvideodownload?filekey=30270201010420301e02016d040253480410876a2ad21c718cdc32bb8a4871a3269202030470740400&hy=SH&storeid=32303137303131393031333630353030303130353935313336666664393330343561333230613030303030303664&bizid=1023"
+							],
+							"preload":"true"
+						},
+						"subviews": []
+					},
+					{
+						"view": "image",
+						"x": 0,
+						"y": 881,
+						"width": 750,
+						"height": 423,
+						"subviews": [],
+						"custom": {
+							"imgUrl": "http://vweixinthumb.tc.qq.com/109/20204/snsvideodownload?filekey=30270201010420301e02016d0402534804104f0f1d216463331d445e77e54aec62fb0203009ddd0400&hy=SH&storeid=32303137303131393032323134343030306236366432313336666664393330343561333230613030303030303664&bizid=1023"
+						}
+					}
+				]
+			},
+			{
+				"view": "page",
+				"x": 0,
+				"y": 2668,
+				"width": 750,
+				"height": 1634,
+				"subviews": [
+					{
+						"view": "landscape",
+						"x": 0,
+						"y": 0,
+						"width": 750,
+						"height": 1334,
+						"custom": {
+							"imgUrl" : "http://7xrxpb.com1.z0.glb.clouddn.com/landscape.jpg",
+							"enableMotion":"true",
+							"preload":"true",
+							"imgWidth": 2000,
+							"imgHeight": 1334
+						},
+						"subviews": []
+					},
+					{
+						"view": "button",
+						"x": 0,
+						"y": 1334,
+						"width": 750,
+						"height": 300,
+						"custom": {
+							"borderColor" : "0xf5f5f5",
+							"btnWidth" : 150,
+							"btnHeight" : 50,
+							"fontSize" : 18,
+							"borderWidth" : 1,
+							"title" : "测试按钮",
+							"textColor" : "0xf5f5f5",
+							"clickUrl" : "http://m.qq.com"
+						},
+						"subviews": []
+					}
+				]
+			},
+			{
+				"view": "page",
+				"x": 0,
+				"y": 4302,
+				"width": 750,
+				"height": 1334,
+				"subviews": [
+					{
+						"view": "video",
+						"x": 0,
+						"y": 0,
+						"width": 750,
+						"height": 1334,
+						"custom": {
+							"videoUrl": "http://bla.gtimg.com/qqlive/201702/BRDS_20170210125654736.mp4",
+							"videoType":"stream",
+							"cover": "",
+							"shouldRotate": "true"
+						},
+						"subviews": []
+					}
+				]
+			}
+		]
+	}
+}
